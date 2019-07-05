@@ -53,7 +53,11 @@ async def oof(ctx):
     
 @client.event
 async def on_member_join(member):
-    await member.send("A new member has joined")
+    await member.send("Have fun in this server")
+
+@client.event
+async def on_member_remove(member):
+    await member.send("Hope you had a good time in the server!")
 
 #this is a stupid bot that has a meme personality, don't take it seriously!
 
