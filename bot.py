@@ -50,6 +50,10 @@ async def sendyeets(ctx):
 @client.command()
 async def oof(ctx):
     await ctx.send("oof " * 100)
+    
+@client.event
+async def on_member_join(member):
+    await member.send("A new member has joined")
 
 #this is a stupid bot that has a meme personality, don't take it seriously!
 
