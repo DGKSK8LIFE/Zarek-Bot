@@ -1,2 +1,2 @@
 # Zarek-Bot
-A discord bot that my cousin and I are making.
+An essoteric discord bot that doesn't take itself seriously and loves memes.
